@@ -1,2 +1,1 @@
-# dde
-The Declan Digital Experience
+# The Declan Digital Experience
