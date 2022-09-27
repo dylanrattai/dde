@@ -25,8 +25,9 @@ def start():
         bigDeclan()
     elif choice == "4":
         declanType = "Entity"
+        entity()
     elif choice == "23":
-        print("\n\nYooo you found the easter egg\n\n")
+        print("\n\n👎︎♏︎♍︎●︎♋︎■︎ 👎︎♓︎♑︎♓︎⧫︎♋︎●︎ ☜︎⌧︎◻︎♏︎❒︎♓︎♏︎■︎♍︎♏︎ ♓︎⬧︎ ⧫︎♒︎♏︎ ♌︎♏︎⬧︎⧫︎ ♑︎♋︎❍︎♏︎ ♏︎❖︎♏︎❒︎ ♋︎■︎♎︎ ♎︎♏︎♍︎●︎♋︎■︎ ♓︎⬧︎ ♏︎◻︎♓︎♍︎ ♐︎❒︎♓︎♏︎■︎♎︎\n\n")
         time.sleep(5)
         start()
     else:
@@ -46,99 +47,359 @@ def bigDeclan():
         time.sleep(5)
         bigDeclan()
 
+def entity():
+    titleCard()
+    time.sleep(5)
+    while 1 == 1:
+        print("Ending 19: Entity")
+
+def hotdog():
+    print("\n\nHow many hotdogs do you want")
+    choice = input("1. 1 hotdog\n2. 2 hotdogs\n3. 3.7 million hotdogs\n\n")
+    if choice == "1":
+        hotdog1()
+    elif choice == "2":
+        hotdog2()
+    elif choice == "3":
+        hotdog3()
+    else:
+        print("\n\n" + choice + " is not an option, please pick a valid option (1, or 2)\n\n")
+        time.sleep(5)
+        hotdog()
+
+def hotdog3():
+    print("\n\nWhat sides do you want to put with your 2 hotdogs")
+    choice = input("1. Fries\n2. Chips\n\n")
+    if choice == "1":
+        hotdog8()
+    elif choice == "2":
+        hotdog9()
+    else:
+        print("\n\n" + choice + " is not an option, please pick a valid option (1, or 2)\n\n")
+        time.sleep(5)
+        hotdog3()
+
+def hotdog8():
+    print("\n\nWhat toppings do you want with your 3.7 million hotdogs and fries")
+    choice = input("1. Ketchup\n2. Ketchup and mustard\n3. None\n\n")
+    if choice == "1":
+        hotdogWK3C()
+    elif choice == "2":
+        hotdogWKM3C()
+    elif choice == "3":
+        hotdogN3C()
+    else:
+        print("\n\n" + choice + " is not an option, please pick a valid option (1, or 2)\n\n")
+        time.sleep(5)
+        hotdog8()
+
+def hotdogWK3C():
+    titleCard()
+    print("Ending 35: You got 3.7 million hotdogs with ketchup and fries")
+
+def hotdogN3C():
+    titleCard()
+    print("Ending 34: You got 3.7 million hotdogs with nothing on it ad fries")
+
+def hotdogWKM3C():
+    titleCard()
+    print("Ending 33: You got 3.7 million hotdogs with ketchup mustard and fries")
+
+def hotdog9():
+    print("\n\nWhat toppings do you want with your 3.7 million hotdogs and chips")
+    choice = input("1. Ketchup\n2. Ketchup and mustard\n3. None\n\n")
+    if choice == "1":
+        hotdogWK3()
+    elif choice == "2":
+        hotdogWKM3()
+    elif choice == "3":
+        hotdogN3()
+    else:
+        print("\n\n" + choice + " is not an option, please pick a valid option (1, or 2)\n\n")
+        time.sleep(5)
+        hotdog9()
+
+def hotdogWK3():
+    titleCard()
+    print("Ending 32: You got 3.7 million hotdogs with ketchup and chips")
+
+def hotdogN3():
+    titleCard()
+    print("Ending 31: You got 3.7 million hotdogs with nothing on it ad chips")
+
+def hotdogWKM3():
+    titleCard()
+    print("Ending 30: You got 3.7 million hotdogs with ketchup mustard and chips")
+
+def hotdog2():
+    print("\n\nWhat sides do you want to put with your 2 hotdogs")
+    choice = input("1. Fries\n2. Chips\n\n")
+    if choice == "1":
+        hotdog6()
+    elif choice == "2":
+        hotdog7()
+    else:
+        print("\n\n" + choice + " is not an option, please pick a valid option (1, or 2)\n\n")
+        time.sleep(5)
+        hotdog2()
+
+def hotdog7():
+    print("\n\nWhat toppings do you want with your hotdog and chips")
+    choice = input("1. Ketchup\n2. Ketchup and mustard\n3. None\n\n")
+    if choice == "1":
+        hotdogWK2C()
+    elif choice == "2":
+        hotdogWKM2C()
+    elif choice == "3":
+        hotdogN2C()
+    else:
+        print("\n\n" + choice + " is not an option, please pick a valid option (1, or 2)\n\n")
+        time.sleep(5)
+        hotdog7()
+
+def hotdogWK2C():
+    titleCard()
+    print("Ending 27: You got a hotdog with ketchup and fries")
+
+def hotdogN2C():
+    titleCard()
+    print("Ending 28: You got a hotdog with nothing on it ad fries")
+
+def hotdogWKM2C():
+    titleCard()
+    print("Ending 29: You got a hotdog with ketchup mustard and fries")
+
+def hotdog6():
+    print("\n\nWhat toppings do you want with your hotdog and chips")
+    choice = input("1. Ketchup\n2. Ketchup and mustard\n3. None\n\n")
+    if choice == "1":
+        hotdogWK2()
+    elif choice == "2":
+        hotdogWKM2()
+    elif choice == "3":
+        hotdogN2()
+    else:
+        print("\n\n" + choice + " is not an option, please pick a valid option (1, or 2)\n\n")
+        time.sleep(5)
+        hotdog6()
+
+def hotdogWK2():
+    titleCard()
+    print("Ending 27: You got a hotdog with ketchup and fries")
+
+def hotdogN2():
+    titleCard()
+    print("Ending 28: You got a hotdog with nothing on it ad fries")
+
+def hotdogWKM2():
+    titleCard()
+    print("Ending 29: You got a hotdog with ketchup mustard and fries")
+
+def hotdog1():
+    print("\n\nWhat sides do you want to put with your hotdog")
+    choice = input("1. Cheese\n2. Fries\n3. Chips\n\n")
+    if choice == "1":
+        hotdogCheese()
+    elif choice == "2":
+        hotdog4()
+    elif choice == "3":
+        hotdog5()
+    else:
+        print("\n\n" + choice + " is not an option, please pick a valid option (1, 2, or 3)\n\n")
+        time.sleep(5)
+        hotdog1()
+
+def hotdog5():
+    print("\n\nWhat toppings do you want with your hotdog and chips")
+    choice = input("1. Ketchup\n2. Ketchup and mustard\n3. None\n\n")
+    if choice == "1":
+        hotdogWKC()
+    elif choice == "2":
+        hotdogWKMC()
+    elif choice == "3":
+        hotdogNC()
+    else:
+        print("\n\n" + choice + " is not an option, please pick a valid option (1, or 2)\n\n")
+        time.sleep(5)
+        hotdog5()
+
+def hotdogWKC():
+    titleCard()
+    print("Ending 26: You got a hotdog with ketchup and fries")
+
+def hotdogNC():
+    titleCard()
+    print("Ending 25: You got a hotdog with nothing on it ad fries")
+
+def hotdogWKMC():
+    titleCard()
+    print("Ending 24: You got a hotdog with ketchup mustard and fries")
+
+def hotdogCheese():
+    titleCard()
+    print("Ending 20: Hotdog with cheese")
+
+def hotdog4():
+    print("\n\nWhat toppings do you want with your hotdog and fries")
+    choice = input("1. Ketchup\n2. Ketchup and mustard\n3. None\n\n")
+    if choice == "1":
+        hotdogWK()
+    elif choice == "2":
+        hotdogWKM()
+    elif choice == "3":
+        hotdogN()
+    else:
+        print("\n\n" + choice + " is not an option, please pick a valid option (1, or 2)\n\n")
+        time.sleep(5)
+        hotdog4()
+
+def hotdogWK():
+    titleCard()
+    print("Ending 21: You got a hotdog with ketchup and fries")
+
+def hotdogN():
+    titleCard()
+    print("Ending 22: You got a hotdog with nothing on it ad fries")
+
+def hotdogWKM():
+    titleCard()
+    print("Ending 23: You got a hotdog with ketchup mustard and fries")
+
 def ohio():
     print("\n\nWhat city is first")
     choice = input("1. Columbus\n2. Cleveland\n3. Cincinnati\n4. Cornfield\n\n")
+    global columbus
+    global cleveland
+    global cincinnati
+    global cornfield
     if  choice == "1" and columbus == False:
-        columbusC()
+        print("\nColumbus destroyed")
         columbus = True
+        callColumbus()
     elif choice == "2" and cleveland == False:
-        clevelandC()
+        print("\nCleveland destroyed")
         cleveland = True
+        callCleveland()
     elif choice == "3" and cincinnati == False:
-        cincinnatiC()
+        print("\nCincinnati destroyed")
         cincinnati = True
+        callCincinnati()
     elif choice == "4" and cornfield == False:
-        cornfieldC()
+        print("\nCornfield destroyed")
         cornfield = True
+        callCornfield()
     else:
         print("\n\n" + choice + " is not an option, please pick a valid option (1, 2, 3, or 4)\n\n")
         time.sleep(5)
         ohio()
 
 def columbusC():
+    global columbus
+    global cleveland
+    global cincinnati
+    global cornfield
     if columbus == True and cleveland == True and cincinnati == True and cornfield == True:
         ohioGone()
     else:
         print("\n\nWhat city is next")
         choice = input("1. Cleveland\n2. Cincinnati\n3. Cornfield\n\n")
         if  choice == "1" and cleveland == False:
-            clevelandC()
+            print("\nCleveland destroyed")
             cleveland = True
+            callCleveland()
         elif choice == "2" and cincinnati == False:
-            cincinnatiC()
+            print("\nCincinnati destroyed")
             cincinnati = True
+            callCincinnati()
         elif choice == "3" and cornfield == False:
-            cornfieldC()
+            print("\nCornfield destroyed")
             cornfield = True
+            callCornfield()
         else:
             print("\n\n" + choice + " is an invalid option, please pick a valid option (1, 2, or 3)\n\n")
             time.sleep(5)
             columbusC()
 
 def cornfieldC():
+    global columbus
+    global cleveland
+    global cincinnati
+    global cornfield
     if columbus == True and cleveland == True and cincinnati == True and cornfield == True:
         ohioGone()
     else:
         print("\n\nWhat city is next")
         choice = input("1. Columbus\n2. Cincinnati\n3. Cleveland\n\n")
         if  choice == "1" and columbus == False:
-            columbusC()
+            print("\nColumbus destroyed")
             columbus = True
+            callColumbus()
         elif choice == "2" and cincinnati == False:
-            cincinnatiC()
+            print("\nCincinnati destroyed")
             cincinnati = True
+            callCincinnati()
         elif choice == "3" and cleveland == False:
-            clevelandC()
+            print("\nCleveland destroyed")
             cleveland = True
+            callCleveland()
         else:
             print("\n\n" + choice + " is an invalid option, please pick a valid option (1, 2, or 3)\n\n")
             time.sleep(5)
             cornfieldC()
 
 def cincinnatiC():
+    global columbus
+    global cleveland
+    global cincinnati
+    global cornfield
     if columbus == True and cleveland == True and cincinnati == True and cornfield == True:
         ohioGone()
     else:
         print("\n\nWhat city is next")
-        choice = input("1. Columbus\n2. Cincinnati\n3. Cleveland\n\n")
+        choice = input("1. Columbus\n2. Cleveland\n3. Cornfield\n\n")
         if  choice == "1" and columbus == False:
-            columbusC()
+            print("\nColumbus destroyed")
             columbus = True
+            callColumbus()
         elif choice == "2" and cincinnati == False:
-            cincinnatiC()
-            cincinnati = True
+            print("\Cleveland destroyed")
+            cleveland = True
+            callCleveland()
         elif choice == "3" and cornfield == False:
-            cornfieldC()
+            print("\nCornfield destroyed")
             cornfield = True
+            callCornfield()
         else:
             print("\n\n" + choice + " is an invalid option, please pick a valid option (1, 2, or 3)\n\n")
             time.sleep(5)
             cincinnatiC()
 
 def clevelandC():
-    print("\n\nWhat city is next")
-    choice = input("1. Columbus\n2. Cincinnati\n3. Cornfield\n\n")
-    if  choice == "1" and columbus == False:
-        columbusC()
-    elif choice == "2" and cincinnati == False:
-        cincinnatiC()
-    elif choice == "3" and cornfield == False:
-        cornfieldC()
+    global columbus
+    global cleveland
+    global cincinnati
+    global cornfield
+    if columbus == True and cleveland == True and cincinnati == True and cornfield == True:
+        ohioGone()
     else:
-        print("\n\n" + choice + " is an invalid option, please pick a valid option (1, 2, or 3)\n\n")
-        time.sleep(5)
-        clevelandC()
+        print("\n\nWhat city is next")
+        choice = input("1. Columbus\n2. Cincinnati\n3. Cornfield\n\n")
+        if  choice == "1" and columbus == False:
+            print("\nColumbus destroyed")
+            columbus = True
+            callColumbus()
+        elif choice == "2" and cincinnati == False:
+            print("\nCincinnati destroyed")
+            cincinnati = True
+            callCincinnati()
+        elif choice == "3" and cornfield == False:
+            print("\nCornfield destroyed")
+            cornfield = True
+            callCornfield()
+        else:
+            print("\n\n" + choice + " is an invalid option, please pick a valid option (1, 2, or 3)\n\n")
+            time.sleep(5)
+            clevelandC()
 
 def c1Declan():
     print("\n\nChoose status")
@@ -389,6 +650,20 @@ def ohioGone():
 def albania():
     titleCard()
     print("\n\nEnding 4: You became the dictator of Albania, taking over Montenegro, Serbia, Kosovo, North Macedonia, Greece, and Bulgaria. Because you hate Bulgaria you decide to set the entire country on fire and the eyes of the world are watching you.\n\n")
+
+# Bypass error of function not defined yet
+
+def callColumbus():
+    columbusC()
+
+def callCincinnati():
+    cincinnatiC()
+
+def callCleveland():
+    clevelandC()
+
+def callCornfield():
+    cornfieldC()
 
 titleCard()
 start()
