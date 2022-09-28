@@ -1,7 +1,6 @@
 # The Declan Digital Experience
 import time
 
-declanType = "Undefined"
 columbus = False
 cleveland = False
 cincinnati = False
@@ -15,16 +14,12 @@ def start():
     choice = input("1. Declan \n2. Not an Apple \n3. Big Declan \n4. Entity\n\n")
 
     if choice == "1":
-        declanType = "Declan"
         c1Declan()
     elif choice == "2":
-        declanType = "I'm Not an Apple"
         c1Apple()
     elif  choice == "3":
-        declanType = "Big Declan"
         bigDeclan()
     elif choice == "4":
-        declanType = "Entity"
         entity()
     elif choice == "23":
         print("\n\n👎︎♏︎♍︎●︎♋︎■︎ 👎︎♓︎♑︎♓︎⧫︎♋︎●︎ ☜︎⌧︎◻︎♏︎❒︎♓︎♏︎■︎♍︎♏︎ ♓︎⬧︎ ⧫︎♒︎♏︎ ♌︎♏︎⬧︎⧫︎ ♑︎♋︎❍︎♏︎ ♏︎❖︎♏︎❒︎ ♋︎■︎♎︎ ♎︎♏︎♍︎●︎♋︎■︎ ♓︎⬧︎ ♏︎◻︎♓︎♍︎ ♐︎❒︎♓︎♏︎■︎♎︎\n\n")
@@ -63,7 +58,7 @@ def hotdog():
     elif choice == "3":
         hotdog3()
     else:
-        print("\n\n" + choice + " is not an option, please pick a valid option (1, or 2)\n\n")
+        print("\n\n" + choice + " is not an option, please pick a valid option (1, 2, or 3)\n\n")
         time.sleep(5)
         hotdog()
 
@@ -89,7 +84,7 @@ def hotdog8():
     elif choice == "3":
         hotdogN3C()
     else:
-        print("\n\n" + choice + " is not an option, please pick a valid option (1, or 2)\n\n")
+        print("\n\n" + choice + " is not an option, please pick a valid option (1, 2, or 3)\n\n")
         time.sleep(5)
         hotdog8()
 
@@ -115,7 +110,7 @@ def hotdog9():
     elif choice == "3":
         hotdogN3()
     else:
-        print("\n\n" + choice + " is not an option, please pick a valid option (1, or 2)\n\n")
+        print("\n\n" + choice + " is not an option, please pick a valid option (1, 2, or 3)\n\n")
         time.sleep(5)
         hotdog9()
 
@@ -153,7 +148,7 @@ def hotdog7():
     elif choice == "3":
         hotdogN2C()
     else:
-        print("\n\n" + choice + " is not an option, please pick a valid option (1, or 2)\n\n")
+        print("\n\n" + choice + " is not an option, please pick a valid option (1, 2, or 3)\n\n")
         time.sleep(5)
         hotdog7()
 
@@ -179,7 +174,7 @@ def hotdog6():
     elif choice == "3":
         hotdogN2()
     else:
-        print("\n\n" + choice + " is not an option, please pick a valid option (1, or 2)\n\n")
+        print("\n\n" + choice + " is not an option, please pick a valid option (1, 2, or 3)\n\n")
         time.sleep(5)
         hotdog6()
 
@@ -219,7 +214,7 @@ def hotdog5():
     elif choice == "3":
         hotdogNC()
     else:
-        print("\n\n" + choice + " is not an option, please pick a valid option (1, or 2)\n\n")
+        print("\n\n" + choice + " is not an option, please pick a valid option (1, 2, or 3)\n\n")
         time.sleep(5)
         hotdog5()
 
@@ -249,7 +244,7 @@ def hotdog4():
     elif choice == "3":
         hotdogN()
     else:
-        print("\n\n" + choice + " is not an option, please pick a valid option (1, or 2)\n\n")
+        print("\n\n" + choice + " is not an option, please pick a valid option (1, 2, or 3)\n\n")
         time.sleep(5)
         hotdog4()
 
@@ -316,7 +311,14 @@ def columbusC():
             cornfield = True
             callCornfield()
         else:
-            print("\n\n" + choice + " is an invalid option, please pick a valid option (1, 2, or 3)\n\n")
+            if cleveland == True:
+                print("Cleveland is already destroyed")
+            elif cincinnati == True:
+                print("Cincinnati is already destroyed")
+            elif cornfield == True:
+                print("The cornfields are already destroyed")
+            else:
+                print("\n\n" + choice + " is an invalid option, please pick a valid option (1, 2, or 3)\n\n")
             time.sleep(5)
             columbusC()
 
@@ -343,7 +345,14 @@ def cornfieldC():
             cleveland = True
             callCleveland()
         else:
-            print("\n\n" + choice + " is an invalid option, please pick a valid option (1, 2, or 3)\n\n")
+            if columbus == True:
+                print("Columbus is already destroyed")
+            elif cincinnati == True:
+                print("Cincinnati is already destroyed")
+            elif cleveland == True:
+                print("Cleveland is already destroyed")
+            else:
+                print("\n\n" + choice + " is an invalid option, please pick a valid option (1, 2, or 3)\n\n")
             time.sleep(5)
             cornfieldC()
 
@@ -370,7 +379,14 @@ def cincinnatiC():
             cornfield = True
             callCornfield()
         else:
-            print("\n\n" + choice + " is an invalid option, please pick a valid option (1, 2, or 3)\n\n")
+            if columbus == True:
+                print("Columbus is already destroyed")
+            elif cleveland == True:
+                print("Cleveland is already destroyed")
+            elif cornfield == True:
+                print("The cornfields are already destroyed")
+            else:
+                print("\n\n" + choice + " is an invalid option, please pick a valid option (1, 2, or 3)\n\n")
             time.sleep(5)
             cincinnatiC()
 
@@ -397,7 +413,14 @@ def clevelandC():
             cornfield = True
             callCornfield()
         else:
-            print("\n\n" + choice + " is an invalid option, please pick a valid option (1, 2, or 3)\n\n")
+            if columbus == True:
+                print("Columbus is already destroyed")
+            elif cincinnati == True:
+                print("Cincinnati is already destroyed")
+            elif cornfield == True:
+                print("The cornfields are already destroyed")
+            else:
+                print("\n\n" + choice + " is an invalid option, please pick a valid option (1, 2, or 3)\n\n")
             time.sleep(5)
             clevelandC()
 
@@ -492,7 +515,7 @@ def applevid():
     elif choice == "3":
         cocobama()
     else:
-        print("\n\n" + choice + " is not an option, please pick a valid option (1 or 2)\n\n")
+        print("\n\n" + choice + " is not an option, please pick a valid option (1, 2, or 3)\n\n")
         time.sleep(5)
         c2AGaming()
 
@@ -515,7 +538,7 @@ def c2AGaming():
     elif choice == "3":
         albania()
     else:
-        print("\n\n" + choice + " is not an option, please pick a valid option (1 or 2)\n\n")
+        print("\n\n" + choice + " is not an option, please pick a valid option (1, 2, or 3)\n\n")
         time.sleep(5)
         c2AGaming()
 
@@ -531,7 +554,7 @@ def c3AAloneChoose():
     elif choice == "4":
         aloneMC()
     else:
-        print("\n\n" + choice + " is not an option, please pick a valid option (1 or 2)\n\n")
+        print("\n\n" + choice + " is not an option, please pick a valid option (1, 2, 3, or 4)\n\n")
         time.sleep(5)
         c3AAloneChoose()
 
@@ -545,7 +568,7 @@ def c3ATheBoys():
     elif choice == "3":
         kowalski()
     else:
-        print("\n\n" + choice + " is not an option, please pick a valid option (1 or 2)\n\n")
+        print("\n\n" + choice + " is not an option, please pick a valid option (1, 2, or 3)\n\n")
         time.sleep(5)
         c3ATheBoys()
 
@@ -559,7 +582,7 @@ def bunger():
     elif choice == "3":
         bungerJabox()
     else:
-        print("\n\n" + choice + " is not an option, please pick a valid option (1 or 2)\n\n")
+        print("\n\n" + choice + " is not an option, please pick a valid option (1, 2, or 3)\n\n")
         time.sleep(5)
         bunger()
 
