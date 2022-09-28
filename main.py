@@ -1,6 +1,8 @@
 # The Declan Digital Experience
 import time
 
+#29 choices i believe
+
 columbus = False
 cleveland = False
 cincinnati = False
