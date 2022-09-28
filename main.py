@@ -46,7 +46,7 @@ def entity():
     titleCard()
     time.sleep(5)
     while 1 == 1:
-        print("Ending 19: Entity")
+        print("Ending 1: Entity")
 
 def hotdog():
     print("\n\nHow many hotdogs do you want")
@@ -90,15 +90,15 @@ def hotdog8():
 
 def hotdogWK3C():
     titleCard()
-    print("Ending 35: You got 3.7 million hotdogs with ketchup and fries")
+    print("Ending 2: You got 3.7 million hotdogs with ketchup and fries")
 
 def hotdogN3C():
     titleCard()
-    print("Ending 34: You got 3.7 million hotdogs with nothing on it ad fries")
+    print("Ending 3: You got 3.7 million hotdogs with nothing on it ad fries")
 
 def hotdogWKM3C():
     titleCard()
-    print("Ending 33: You got 3.7 million hotdogs with ketchup mustard and fries")
+    print("Ending 4: You got 3.7 million hotdogs with ketchup mustard and fries")
 
 def hotdog9():
     print("\n\nWhat toppings do you want with your 3.7 million hotdogs and chips")
@@ -116,15 +116,15 @@ def hotdog9():
 
 def hotdogWK3():
     titleCard()
-    print("Ending 32: You got 3.7 million hotdogs with ketchup and chips")
+    print("Ending 5: You got 3.7 million hotdogs with ketchup and chips")
 
 def hotdogN3():
     titleCard()
-    print("Ending 31: You got 3.7 million hotdogs with nothing on it ad chips")
+    print("Ending 6: You got 3.7 million hotdogs with nothing on it ad chips")
 
 def hotdogWKM3():
     titleCard()
-    print("Ending 30: You got 3.7 million hotdogs with ketchup mustard and chips")
+    print("Ending 7: You got 3.7 million hotdogs with ketchup mustard and chips")
 
 def hotdog2():
     print("\n\nWhat sides do you want to put with your 2 hotdogs")
@@ -154,15 +154,15 @@ def hotdog7():
 
 def hotdogWK2C():
     titleCard()
-    print("Ending 27: You got a hotdog with ketchup and fries")
+    print("Ending 8: You got a hotdog with ketchup and fries")
 
 def hotdogN2C():
     titleCard()
-    print("Ending 28: You got a hotdog with nothing on it ad fries")
+    print("Ending 9: You got a hotdog with nothing on it ad fries")
 
 def hotdogWKM2C():
     titleCard()
-    print("Ending 29: You got a hotdog with ketchup mustard and fries")
+    print("Ending 10: You got a hotdog with ketchup mustard and fries")
 
 def hotdog6():
     print("\n\nWhat toppings do you want with your hotdog and chips")
@@ -180,15 +180,15 @@ def hotdog6():
 
 def hotdogWK2():
     titleCard()
-    print("Ending 27: You got a hotdog with ketchup and fries")
+    print("Ending 11: You got a hotdog with ketchup and fries")
 
 def hotdogN2():
     titleCard()
-    print("Ending 28: You got a hotdog with nothing on it ad fries")
+    print("Ending 12: You got a hotdog with nothing on it ad fries")
 
 def hotdogWKM2():
     titleCard()
-    print("Ending 29: You got a hotdog with ketchup mustard and fries")
+    print("Ending 13: You got a hotdog with ketchup mustard and fries")
 
 def hotdog1():
     print("\n\nWhat sides do you want to put with your hotdog")
@@ -220,19 +220,19 @@ def hotdog5():
 
 def hotdogWKC():
     titleCard()
-    print("Ending 26: You got a hotdog with ketchup and fries")
+    print("Ending 14: You got a hotdog with ketchup and fries")
 
 def hotdogNC():
     titleCard()
-    print("Ending 25: You got a hotdog with nothing on it ad fries")
+    print("Ending 15: You got a hotdog with nothing on it ad fries")
 
 def hotdogWKMC():
     titleCard()
-    print("Ending 24: You got a hotdog with ketchup mustard and fries")
+    print("Ending 16: You got a hotdog with ketchup mustard and fries")
 
 def hotdogCheese():
     titleCard()
-    print("Ending 20: Hotdog with cheese")
+    print("Ending 17: Hotdog with cheese")
 
 def hotdog4():
     print("\n\nWhat toppings do you want with your hotdog and fries")
@@ -250,15 +250,15 @@ def hotdog4():
 
 def hotdogWK():
     titleCard()
-    print("Ending 21: You got a hotdog with ketchup and fries")
+    print("Ending 18: You got a hotdog with ketchup and fries")
 
 def hotdogN():
     titleCard()
-    print("Ending 22: You got a hotdog with nothing on it ad fries")
+    print("Ending 19: You got a hotdog with nothing on it ad fries")
 
 def hotdogWKM():
     titleCard()
-    print("Ending 23: You got a hotdog with ketchup mustard and fries")
+    print("Ending 20: You got a hotdog with ketchup mustard and fries")
 
 def ohio():
     print("\n\nWhat city is first")
@@ -440,7 +440,7 @@ def c1Declan():
 
 def c2DSick():
     titleCard()
-    print('\n\nEnding 1: Declan has died from a mysterious sickness also known as the "Common Cold"')
+    print('\n\nEnding 21: Declan has died from a mysterious sickness also known as the "Common Cold"')
 
 def c2DSchool():
     print("\n\nYou went to school and did the schoolwork for that day, what do you want to do when you get home?")
@@ -463,7 +463,7 @@ def dSleep():
 
 def c3DHotSauce():
     titleCard()
-    print("\n\nEnding 2: Declan has had too much hot sauce and drowns\n\n")
+    print("\n\nEnding 22: Declan has had too much hot sauce and drowns\n\n")
 
 def c3DGaming():
     print("\n\nWhat do you want to do")
@@ -491,7 +491,7 @@ def c4DGamingAlone():
 
 def c4DTHEBOYS():
     titleCard()
-    print("\n\nEnding 3: You were gaming with the boys all night and had a good time\n\n")
+    print("\n\nEnding 23: You were gaming with the boys all night and had a good time\n\n")
 
 def c1Apple():
     print("\n\nWhat do you want to do today")
@@ -520,13 +520,13 @@ def applevid():
         c2AGaming()
 
 def desk():
-    print("\n\nEnding 16: Hitting my desk posted")
+    print("\n\nEnding 24: Hitting my desk posted")
 
 def burrito():
-    print("\n\nEnding 17: Funny mic man eats a burrito posted")
+    print("\n\nEnding 25: Funny mic man eats a burrito posted")
 
 def cocobama():
-    print("\n\nEnding 18: Cocobama posted")
+    print("\n\nEnding 26: Cocobama posted")
 
 def c2AGaming():
     print("\n\nWhat do you want to do")
@@ -588,15 +588,15 @@ def bunger():
 
 def bungerMC():
     titleCard()
-    print("\n\nEnding 9: You played Minecraft with the boys in the bunger server all night and had a good time")
+    print("\n\nEnding 27: You played Minecraft with the boys in the bunger server all night and had a good time")
 
 def bungerCS():
     titleCard()
-    print("\n\nEnding 10: You played CS:GO with the boys in the bunger server all night and had a good time")
+    print("\n\nEnding 28: You played CS:GO with the boys in the bunger server all night and had a good time")
 
 def bungerJabox():
     titleCard()
-    print("\n\nEnding 11: You played Jackbox with the boys in the bunger server all night and had a good time")
+    print("\n\nEnding 29: You played Jackbox with the boys in the bunger server all night and had a good time")
 
 def kowalski():
     print("\n\nWhat game will you play")
@@ -612,11 +612,11 @@ def kowalski():
 
 def kowalMC():
     titleCard()
-    print("\n\nEnding 13: You played Minecraft with the boys in the bunger server all night and had a good time")
+    print("\n\nEnding 30: You played Minecraft with the boys in the bunger server all night and had a good time")
 
 def kowalCS():
     titleCard()
-    print("\n\nEnding 12: You played CS:GO with the boys in the bunger server all night and had a good time")
+    print("\n\nEnding 31: You played CS:GO with the boys in the bunger server all night and had a good time")
 
 def dictableship():
     print("\n\nWhat game will you play")
@@ -632,11 +632,11 @@ def dictableship():
 
 def tableMC():
     titleCard()
-    print("\n\nEnding 15: You played Minecraft with the boys in the bunger server all night and had a good time")
+    print("\n\nEnding 32: You played Minecraft with the boys in the bunger server all night and had a good time")
 
 def tableJackbox():
     titleCard()
-    print("\n\nEnding 14: You played Jackbox with the boys in the bunger server all night and had a good time")
+    print("\n\nEnding 33: You played Jackbox with the boys in the bunger server all night and had a good time")
 
 def aloneCSGO():
     print("\n\nYou got a call from one of the boys do you")
@@ -652,27 +652,27 @@ def aloneCSGO():
 
 def aloneRoblox():
     titleCard()
-    print("\n\nEnding 7: You played Roblox alone all night and had a good time")
+    print("\n\nEnding 34: You played Roblox alone all night and had a good time")
 
 def aloneMC():
     titleCard()
-    print("\n\nEnding 8: You played Minecraft alone all night and had a good time")
+    print("\n\nEnding 35: You played Minecraft alone all night and had a good time")
 
 def csgo2():
     titleCard()
-    print("\n\nEning 6: You played CS:GO alone all night and had a good time")
+    print("\n\nEnding 36: You played CS:GO alone all night and had a good time")
 
 def csgo():
     titleCard()
-    print("\n\nEnding 5: You played CS:GO with the boys all night and had a good time")
+    print("\n\nEnding 37: You played CS:GO with the boys all night and had a good time")
 
 def ohioGone():
     titleCard()
-    print("\n\nEnding 18: Ohio has been destroyed")
+    print("\n\nEnding 38: Ohio has been destroyed")
 
 def albania():
     titleCard()
-    print("\n\nEnding 4: You became the dictator of Albania, taking over Montenegro, Serbia, Kosovo, North Macedonia, Greece, and Bulgaria. Because you hate Bulgaria you decide to set the entire country on fire and the eyes of the world are watching you.\n\n")
+    print("\n\nEnding 39: You became the dictator of Albania, taking over Montenegro, Serbia, Kosovo, North Macedonia, Greece, and Bulgaria. Because you hate Bulgaria you decide to set the entire country on fire and the eyes of the world are watching you.\n\n")
 
 # Bypass error of function not defined yet
 
